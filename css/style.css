@@ -1,0 +1,137 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #eeeeee;
+	font-family: Roboto;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: 0 auto;
+}
+
+header {
+	height: 230px;
+	background-image: url(../images/future_test_01.png);
+	padding: 25px 0;
+}
+
+header div {
+	width: 82%;
+	float: left;
+}
+header ul {
+	list-style: none;
+	font-size: 12px;
+	line-height: 2;
+	padding: 7px 8px
+}
+
+header h1 {
+	font-weight: 100;
+	font-size: 47px;
+	margin-top: 60px;
+	padding-left: 3px;
+	
+}
+
+header img {
+	float: right;
+	width: 18%;
+}
+
+main {
+	margin: 31px 0;
+	padding: 0 10px;
+}
+
+main h4 {
+	display: inline-block;
+	width: 135px;
+                  overflow: hidden;
+}
+
+main li {
+	list-style: none;
+}
+main small {
+	font-size: 12px;
+                  margin-left: 15px;
+}
+
+main p {
+	margin: 15px 0 22px;
+}
+
+main h2 {
+	margin: 48px 0 15px 0;
+}
+
+input {
+}
+
+#comment-list {
+    height: 200px;
+}
+#name {
+	padding: 5px;
+	width: 460px;
+	height: 46px;
+	border-radius: 5px;
+	margin: 10px 0 16px;
+	
+}
+
+#msg {
+	padding: 5px;
+	margin: 10px 0;
+	height: 136px;
+	border: 2px solid black;
+	border-radius: 5px;
+	width: 460px;
+	resize: none;
+}
+
+#submit {
+	border-radius: 5px;
+	border: 2px solid black;
+	height: 45px;
+	width: 135px;
+	font-size: 18px;
+	margin-left: 325px;
+	color: white;
+	background-color: black;
+
+}
+
+footer img {
+	width: 12%;
+	display: block;
+	float: left;
+	margin-right: 30px;
+}
+
+footer ul {
+	margin: 25px 0;
+	display: block;
+	float:left;
+	list-style: none;
+	font-size: 12px;
+	line-height: 1.6;
+	font-weight: bold;
+	
+}
+
+footer {
+	margin: 64px 6px 0; 
+	background-color: #f9f9f9;
+	height: 150px
+}
+
+footer p {
+	margin-top: 10px;
+}
